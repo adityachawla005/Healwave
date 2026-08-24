@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HealWave | Intelligence you can trust</title>
+  <meta name="description" content="HealWave builds AI diagnostics and immersive medical training for modern healthcare." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html"><span class="brand-mark"></span>HealWave</a>
+      <button class="menu-toggle" type="button">Menu</button>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="solutions.html">What we do</a>
+        <a href="vitapulse.html">VitaPulse</a>
+        <a href="company.html">Who we are</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="link" href="contact.html">Request a demo</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-photo" alt="" src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=2400&q=80" />
+      <div class="hero-shade"></div>
+      <canvas id="scene"></canvas>
+      <div class="wrap hero-copy">
+        <h1 class="line">Intelligence you can trust</h1>
+        <h2 class="line right">care you can advance</h2>
+        <div class="hero-foot">
+          <p>AI diagnostics and immersive medical training for clinicians, hospitals, and the next generation of practitioners.</p>
+          <a class="link" href="solutions.html">Explore solutions</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stage">
+      <div class="wrap editorial">
+        <div>
+          <p class="kicker reveal">Mission</p>
+          <h2 class="reveal">Technology in service of better outcomes.</h2>
+        </div>
+        <p class="lede reveal">HealWave HealthTech designs systems that help teams decide with more clarity, train with more realism, and work with more precision — without turning healthcare into another generic software product.</p>
+      </div>
+    </section>
+
+    <section class="stage" style="padding-top:0">
+      <div class="wrap">
+        <p class="kicker reveal">Solutions</p>
+        <ul class="list">
+          <li class="reveal">
+            <span class="num">01</span>
+            <div>
+              <h3>AI Diagnostics</h3>
+              <p>Machine learning that supports interpretation, triage, and confident clinical judgment.</p>
+            </div>
+            <a class="link" href="solutions.html#ai">Learn more</a>
+          </li>
+          <li class="reveal">
+            <span class="num">02</span>
+            <div>
+              <h3>VR / AR Medical Training</h3>
+              <p>Immersive rehearsal for emergency, surgical, and team-based care.</p>
+            </div>
+            <a class="link" href="solutions.html#immersive">Learn more</a>
+          </li>
+          <li class="reveal">
+            <span class="num">03</span>
+            <div>
+              <h3>VitaPulse</h3>
+              <p>Our flagship virtual training environment for measurable clinical readiness.</p>
+            </div>
+            <a class="link" href="vitapulse.html">Learn more</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="vita">
+      <img alt="" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=2200&q=80" />
+      <div class="inner">
+        <p class="kicker reveal">Flagship</p>
+        <h2 class="reveal">VitaPulse, built for the way medicine is actually practiced.</h2>
+        <p class="reveal">High-fidelity scenarios, guided evaluation, and institutional-scale training — in one environment.</p>
+        <a class="link reveal" href="vitapulse.html">Enter VitaPulse</a>
+      </div>
+    </section>
+
+    <section class="impact wrap">
+      <p class="kicker reveal">Impact</p>
+      <h2 class="reveal">What changes when training and intelligence meet.</h2>
+      <div class="impact-row">
+        <article class="reveal"><strong>Clarity</strong><p>Faster, more informed decisions at the point of care.</p></article>
+        <article class="reveal"><strong>Readiness</strong><p>Training that feels like the room, not a slideshow.</p></article>
+        <article class="reveal"><strong>Precision</strong><p>Repeatable simulation for surgery and emergency response.</p></article>
+        <article class="reveal"><strong>Flow</strong><p>Technology that supports people, not the other way around.</p></article>
+      </div>
+    </section>
+
+    <section class="stage">
+      <div class="wrap editorial">
+        <h2 class="reveal">Let’s design the next chapter of care together.</h2>
+        <div>
+          <p class="lede reveal">Request a walkthrough, discuss a partnership, or explore a clinical collaboration.</p>
+          <p class="reveal" style="margin-top:1.4rem"><a class="link" href="contact.html">Begin a conversation</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <div><strong>HealWave HealthTech Pvt Ltd</strong><p>AI, spatial computing, and medical training.</p></div>
+      <div><a href="solutions.html">What we do</a><a href="vitapulse.html">VitaPulse</a></div>
+      <div><a href="company.html">Who we are</a><a href="contact.html">Contact</a></div>
+      <div><a href="mailto:hello@healwave.life">hello@healwave.life</a></div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

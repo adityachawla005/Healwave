@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | HealWave</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="inner">
+  <header class="site-header solid">
+    <div class="wrap nav">
+      <a class="brand" href="index.html"><span class="brand-mark"></span>HealWave</a>
+      <button class="menu-toggle" type="button">Menu</button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="solutions.html">What we do</a>
+        <a href="vitapulse.html">VitaPulse</a>
+        <a href="company.html">Who we are</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <a class="link" href="mailto:hello@healwave.life">hello@healwave.life</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="wrap editorial">
+        <div>
+          <p class="kicker reveal">Contact</p>
+          <h1 class="reveal">Tell us what you want to build.</h1>
+        </div>
+        <form class="reveal" action="mailto:hello@healwave.life" method="post" enctype="text/plain">
+          <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">Work email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+          <div>
+            <label for="org">Organization</label>
+            <input id="org" name="organization" />
+          </div>
+          <div>
+            <label for="interest">Interest</label>
+            <select id="interest" name="interest">
+              <option>AI Diagnostics</option>
+              <option>VR / AR Training</option>
+              <option>VitaPulse</option>
+              <option>Partnership</option>
+              <option>Clinical collaboration</option>
+            </select>
+          </div>
+          <div>
+            <label for="message">Note</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <button class="link" type="submit">Send the note</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <div><strong>HealWave HealthTech Pvt Ltd</strong><p>AI, spatial computing, and medical training.</p></div>
+      <div><a href="solutions.html">What we do</a><a href="vitapulse.html">VitaPulse</a></div>
+      <div><a href="company.html">Who we are</a><a href="contact.html">Contact</a></div>
+      <div><a href="mailto:hello@healwave.life">hello@healwave.life</a></div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
