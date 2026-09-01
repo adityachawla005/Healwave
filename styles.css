@@ -59,6 +59,12 @@ body.inner .brand,
 body.inner .nav-links a,
 body.inner .menu-toggle,
 body.inner .link { color: var(--ink); }
+.brand-logo {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 .brand-mark {
   width: 28px;
   height: 28px;
@@ -169,6 +175,52 @@ body.inner .nav > .link,
   font-size: 0.95rem;
 }
 .hero-foot p { margin: 0; max-width: 36ch; }
+.company-name {
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin-bottom: 0.35rem;
+}
+.hero-creds {
+  font-size: 0.86rem;
+  color: rgba(255,255,255,0.82);
+  margin-bottom: 0.6rem;
+}
+.hero-creds a { color: #d8f0ff; border-bottom: 1px solid rgba(216,240,255,0.5); }
+
+.about-infographic { padding-top: 2rem; }
+.infographic {
+  margin: 1.6rem 0 1.2rem;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #fff;
+  box-shadow: 0 18px 48px rgba(12, 26, 46, 0.08);
+}
+.infographic img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.cred-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 0.8rem;
+}
+.cred-row span {
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  background: rgba(255,255,255,0.7);
+}
+.cred-links { font-size: 0.92rem; color: var(--muted); }
+.cred-links a { border-bottom: 1px solid currentColor; }
+.footer-creds { margin-top: 0.35rem; font-size: 0.85rem; }
 
 .stage { padding: 6.5rem 0; }
 .kicker {
